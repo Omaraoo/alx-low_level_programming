@@ -3,7 +3,7 @@
 #include <time.h>
 #include <stdbool.h>
 
-/*
+/**
  * main - Entry point
  *
  * Description: false or true validation
