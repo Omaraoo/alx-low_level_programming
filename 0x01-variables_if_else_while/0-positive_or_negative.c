@@ -21,6 +21,6 @@ if (n > 0)
 if (n == 0)
 	printf("%u is zero\n", n);
 if (n < 0)
-	printf("%u %100 is negative\n", n);
+	printf("%u is negative\n", n % 100);
 return (0);
 }
