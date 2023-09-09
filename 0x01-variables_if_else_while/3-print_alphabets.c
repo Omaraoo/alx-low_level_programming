@@ -20,7 +20,7 @@ ch++;
 while (chz <= 'Z')
 {
 putchar(chz);
-ch++;
+chz++;
 }
 putchar('\n');
 return (0);
