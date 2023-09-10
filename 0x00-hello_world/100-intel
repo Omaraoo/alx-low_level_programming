@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S 100-main.c -o `echo 100-main.c | cut -d. -f1`.s
+gcc -S -masm=intel $CFILE
