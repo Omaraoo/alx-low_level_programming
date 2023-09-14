@@ -13,7 +13,7 @@
 void positive_or_negative(int i)
 {
 srand(time(0));
-n = rand() - RAND_MAX / 2;
+i = rand() - RAND_MAX / 2;
 if (i > 0)
 	printf("%u is positive\n", i);
 if (i == 0)
