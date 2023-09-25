@@ -4,7 +4,7 @@
  * _strcat - appends the src string to the dest string
  * @dest: the string to be appended to
  * @src: the string to be appended
- * return: void
+ * Return: void
 */
 
 char *_strcat(char *dest, char *src)
@@ -13,7 +13,7 @@ int i;
 int j;
 
 i = 0;
-while (dest[i] != '\0')
+	while (dest[i] != '\0')
 {
 		i++;
 }
