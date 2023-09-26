@@ -19,6 +19,6 @@ int main(void)
 	printf("%s", s1);
 	printf("%s", s1);
 	printf("%s", s2);
-	printf("%p", ptr);
+	printf("%s", ptr);
 	return (0);
 }
